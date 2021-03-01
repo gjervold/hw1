@@ -1,0 +1,21 @@
+---
+title: "Homework 1"
+author: "Alyssa Gjervold"
+date: "2/2/2021"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## Question 1
+
+```{r cars}
+bridges <- read_csv("bridges.txt")
+bridges
+```
+
+## Question 2
+
