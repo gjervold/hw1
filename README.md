@@ -7,6 +7,3 @@ library(readr)
 
 bridges <- read_csv("bridges.txt")
 
-<code>
-print(bridges)
-</code>
